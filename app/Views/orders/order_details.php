@@ -7,7 +7,8 @@
 <p><strong>Customer Name:</strong> <?= esc($order['customer_name']) ?></p>
 <p><strong>Email:</strong> <?= esc($order['customer_email']) ?></p>
 <p><strong>Total Amount:</strong> $<?= esc($order['total_amount']) ?></p>
-<p><strong>Status:</strong> <?= esc($order['status']) ?></p>
+<p><strong> Order Status:</strong> <?= esc($order['status']) ?></p>
+<p><strong>Payment Status:</strong> <?= esc($payment['status']) ?></p>
 
 <h3>Payment Request & Response</h3>
 <?php if ($payment): ?>

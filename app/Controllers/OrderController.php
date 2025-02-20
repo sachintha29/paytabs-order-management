@@ -22,7 +22,7 @@ class OrderController extends Controller
             'customer_name' => $this->request->getPost('name'),
             'customer_email' => $this->request->getPost('email'),
             'total_amount' => $totalAmount,
-            'status' => 'initiated'
+            'status' => 'pending'
         ];
 
         $orderId = $orderModel->insert($data);

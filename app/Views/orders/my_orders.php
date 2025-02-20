@@ -8,7 +8,7 @@
             <th>Order ID</th>
             <th>Customer Name</th>
             <th>Total Amount</th>
-            <th>Status</th>
+            <th>Order Status</th>
             <th>Details</th>
         </tr>
     </thead>
