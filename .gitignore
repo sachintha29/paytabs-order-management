@@ -41,7 +41,6 @@ $RECYCLE.BIN/
 #-------------------------
 # These should never be under version control,
 # as it poses a security risk.
-.env
 .vagrant
 Vagrantfile
 
@@ -120,7 +119,8 @@ nb-configuration.xml
 /api/
 
 # Visual Studio Code
-.vscode/
 
 /results/
 /phpunit*.xml
+config.bat
+node_modules

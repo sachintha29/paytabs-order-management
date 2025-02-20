@@ -35,7 +35,7 @@ database.default.username = your_db_user
 database.default.password = your_db_password
 database.default.DBDriver = MySQLi
 PAYTABS_API_KEY= text-text
-
+Please add PATTABS_API_KEY  given test credincials
 
 ```
 
