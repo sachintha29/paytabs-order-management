@@ -29,11 +29,14 @@ cp env .env
 Modify the `.env` file:
 ```ini
 app.baseURL = 'http://localhost:8080'
-database.default.hostname = 'localhost'
-database.default.database = 'your_database_name'
-database.default.username = 'your_db_user'
-database.default.password = 'your_db_password'
-database.default.DBDriver = 'MySQLi'
+database.default.hostname = localhost
+database.default.database = your_database_name
+database.default.username = your_db_user
+database.default.password = your_db_password
+database.default.DBDriver = MySQLi
+PAYTABS_API_KEY= text-text
+
+
 ```
 
 ### 4. Run Migrations
